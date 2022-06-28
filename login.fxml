@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="325.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ctaaoop.controllerLogin">
+   <children>
+      <Label layoutX="96.0" layoutY="134.0" text="USER NAME :">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="96.0" layoutY="188.0" text="PASSWORD :">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="username" layoutX="260.0" layoutY="128.0" promptText="Enter User name" />
+      <PasswordField fx:id="password" layoutX="260.0" layoutY="182.0" promptText="Password" />
+      <Label layoutX="261.0" layoutY="35.0" text="LOGIN" textFill="#e80e0e" underline="true">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+      </Label>
+      <Button layoutX="217.0" layoutY="257.0" mnemonicParsing="false" onAction="#onSubmitBtnClk" text="LOGIN" textFill="#15b222">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="380.0" layoutY="257.0" mnemonicParsing="false" onAction="#onResetBtnClk" text="RESET" textFill="#ff2626">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
